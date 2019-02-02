@@ -1,0 +1,79 @@
+<div class="container-fluid">
+<div class="col-sm-12 header">
+<div class="col-sm-12 text-center">
+  <h1>Moneyexchange</h1>
+</div>
+<div class="col-sm-12 text-center row">
+  <div class="col-sm-3 form-group">
+    <a class="btn btn-primary btn-lg" href="#" role="button">HOME</a>
+  </div>
+  <div class="col-sm-3 form-group">
+    <a class="btn btn-primary btn-lg" href="#" role="button">QUOTATIONS</a>
+  </div>
+  <div class="col-sm-3 form-group">
+  <a class="btn btn-primary btn-lg" href="#" role="button">ABOUT AS</a>
+  </div>
+  <div class="col-sm-3 form-group">
+  <a class="btn btn-primary btn-lg" href="#" role="button">CONTACT</a>
+  </div>
+</div>
+</div>
+    <form (ngSubmit)="getlastCotizacion (formulario)" #formulario ="ngForm">
+      <div class="row">
+      <div class="col-sm-2">
+      </div>
+      <div class="col-sm-4">
+      <div class="form-group">
+        <input ngModel type="number" class="form-control" name="txDolar" placeholder="USD"  required>
+      </div>
+      </div>
+      <div class="col-sm-4">
+      <div class="form-group">
+        <input ngModel type="text" class="form-control" name="txEuro"  placeholder="EU" value={{resultado|number}}  disabled>
+      </div>
+      <div class="col-sm-2">
+      </div>
+
+      </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <button type="submit" class="btn btn-primary center-block" >CALCULATE</button>
+        </div>
+      </div>
+      <footer class="footer">
+      <div class="row">
+        <div class="col-sm-3">
+        <h3>titulo 1</h3>
+        <ul>
+          <ul>link1</ul>
+          <ul>link2</ul>
+          <ul>link3</ul>
+        </ul>
+        </div>
+       <div class="col-sm-3">
+       <h3>titulo 1</h3>
+        <ul>
+          <ul>link1</ul>
+          <ul>link2</ul>
+          <ul>link3</ul>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+       <h3>titulo 1</h3>
+        <ul>
+          <ul>link1</ul>
+          <ul>link2</ul>
+          <ul>link3</ul>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+       <h3>Encuentranos en:</h3>
+        <img src="">
+        <img src="">
+        <img src="">
+      </div>
+      </div>
+      </footer>
+    </form>
+ </div>
