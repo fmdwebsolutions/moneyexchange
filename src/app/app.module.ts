@@ -5,10 +5,11 @@ import {HttpClientModule} from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
+import { FourDigitDecimaNumberDirectiveDirective } from './directives/four-digit-decima-number-directive.directive';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, HttpClientModule ],
-  declarations: [ AppComponent, HomeComponent ],
+  declarations: [ AppComponent, HomeComponent, FourDigitDecimaNumberDirectiveDirective ],
   bootstrap:    [ AppComponent ],
   providers: []
 })
